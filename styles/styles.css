@@ -2,6 +2,17 @@ main {
     max-width: 840px;
 }
 
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
 main img {
     width: 150px;
     height: auto;
