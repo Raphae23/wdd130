@@ -13,6 +13,10 @@ nav a {
     display: block;
 }
 
+h1 {
+    color: steelblue;
+}
+
 main img {
     width: 150px;
     height: auto;
