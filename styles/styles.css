@@ -11,23 +11,31 @@ body {
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
-    padding: 10px;
+    color: #fff;
+    padding: 0.5rem;
     display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+
 }
 
 h1 {
     color: steelblue;
     padding: .5rem;
+    border-bottom: #000 solid 1px;
 }
 
-main {
-
-    max-width: 640px;
+main{
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -40,14 +48,20 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 p {
     padding: 1rem;
 }
 
 aside {
     width: 20em;
-    text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
@@ -80,4 +94,9 @@ footer {
 
 .indent {
     padding-left: 2rem;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
 }
