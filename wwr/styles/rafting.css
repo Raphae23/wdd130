@@ -121,9 +121,10 @@ h2 {
 }
 
 .hero article img {
+    float: right;
     width: 120px;
     height: 120px;
-    flex-shrink: 0;
+    margin: 0 0 10px 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -201,7 +202,7 @@ figure img:hover {
 figcaption {
     margin-top: 12px;
     font-weight: bold;
-    color: rgb(130, 125, 125);
+    color: #055a05;
     font-size: 0.9em;
 }
 
@@ -211,7 +212,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: white;
     border-top: 3px solid #055a05;
     margin-top: 40px;
 }
