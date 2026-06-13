@@ -23,7 +23,6 @@ footer {
     margin: 0 auto;
 }
 
-/* ===== HEADER STYLING ===== */
 header {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -63,7 +62,6 @@ nav a:hover {
     color: white;
 }
 
-/* ===== MAIN CONTENT ===== */
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -86,7 +84,6 @@ h3 {
     font-size: 1.3em;
 }
 
-/* ===== HERO SECTION ===== */
 .hero {
     position: relative;
     margin-bottom: 40px;
@@ -138,7 +135,6 @@ h3 {
     line-height: 1.6;
 }
 
-/* ===== HISTORY SECTION ===== */
 .history {
     margin: 40px 0;
     padding: 30px;
@@ -165,7 +161,6 @@ h3 {
     text-align: justify;
 }
 
-/* ===== ADVENTURE SECTION ===== */
 .adventures {
     margin: 40px 0;
     padding: 30px;
@@ -209,7 +204,6 @@ figcaption {
     font-size: 0.9em;
 }
 
-/* ===== HOME PAGE STYLES ===== */
 .home-intro {
     margin: 40px 0;
     padding: 30px;
@@ -269,7 +263,6 @@ figcaption {
     line-height: 1.6;
 }
 
-/* ===== CTA SECTION ===== */
 .cta-section {
     margin: 40px 0;
     padding: 40px 30px;
@@ -306,7 +299,6 @@ figcaption {
     box-shadow: 0 6px 12px rgba(5, 90, 5, 0.3);
 }
 
-/* ===== NEWSLETTER SECTION ===== */
 .newsletter {
     margin: 40px 0;
     padding: 40px 30px;
@@ -357,7 +349,6 @@ figcaption {
     align-self: center;
 }
 
-/* ===== TRIPS PAGE STYLES ===== */
 .trips-intro {
     margin: 40px 0;
     padding: 30px;
@@ -440,7 +431,6 @@ figcaption {
     color: var(--primary);
 }
 
-/* ===== TRIPS TABLE ===== */
 .trips-table {
     margin: 40px 0;
     padding: 30px;
@@ -481,7 +471,6 @@ figcaption {
     background-color: #e8d5f2;
 }
 
-/* ===== FAQ SECTION ===== */
 .trips-faq {
     margin: 40px 0;
     padding: 30px;
@@ -513,7 +502,6 @@ figcaption {
     line-height: 1.6;
 }
 
-/* ===== CONTACT PAGE STYLES ===== */
 .contact-info {
     text-align: center;
     margin: 40px 0;
@@ -693,7 +681,6 @@ figcaption {
     color: var(--accent1-color);
 }
 
-/* ===== FOOTER ===== */
 footer {
     display: flex;
     justify-content: space-between;
@@ -735,7 +722,6 @@ footer p {
     background-color: white;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
     header {
         grid-template-columns: 1fr;
